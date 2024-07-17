@@ -1,0 +1,257 @@
+INFO:root:Starting server at 0.0.0.0:5003
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.0.11:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting server at 0.0.0.0:5003
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 772-397-518
+INFO:root:Starting server at 0.0.0.0:5003
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.0.11:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting server at 0.0.0.0:5003
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 772-397-518
+2024-06-23 11:05:40 INFO Starting server at 0.0.0.0:5003
+2024-06-23 11:05:40 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.0.11:5003
+2024-06-23 11:05:40 INFO [33mPress CTRL+C to quit[0m
+2024-06-23 11:05:40 INFO  * Restarting with stat
+2024-06-23 11:05:40 INFO Starting server at 0.0.0.0:5003
+2024-06-23 11:05:40 WARNING  * Debugger is active!
+2024-06-23 11:05:40 INFO  * Debugger PIN: 772-397-518
+2024-06-23 11:05:43 INFO 192.168.0.11 - - [23/Jun/2024 11:05:43] "[33mGET / HTTP/1.1[0m" 404 -
+2024-06-23 11:05:43 INFO 192.168.0.11 - - [23/Jun/2024 11:05:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-06-23 11:05:55 DEBUG Logging visit: Timestamp: 2024-06-23 11:05:55.438960, IP: 192.168.0.11, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0
+2024-06-23 11:05:55 DEBUG Starting new HTTPS connection (1): api.vk.com:443
+2024-06-23 11:05:55 DEBUG https://api.vk.com:443 "POST /method/wall.post?owner_id=-226321035&message=Timestamp%3A+2024-06-23+11%3A05%3A55.438960%2C+IP%3A+192.168.0.11%2C+User+Agent%3A+Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F123.0.0.0+Safari%2F537.36+OPR%2F109.0.0.0&access_token=vk1.a.C_p1oysGXagbyb_W74POdMRYcMZTSqhxOKeW8jxKON9cQ6R0VtXzztw3RIV-MQsBJILBlJGXG4dJK99ZNon_kmQus80hBmuia2pJm465U6WXa_oD9VuY4oAt_Ewn15ERQpVmMDl3A1s7m4U0OaY0jl3Ucf0yfR0dACuGLJSJ2Qbp7ksDiLEJSB4HbO8TLZwzgX7PGkDBfreKvsE-v5jRBw&v=5.131 HTTP/1.1" 200 46
+2024-06-23 11:05:55 DEBUG VK response: {'response': {'post_id': 1}}
+2024-06-23 11:05:55 DEBUG Updating counter: Date: 23-06-2024, Counter updated
+2024-06-23 11:05:55 DEBUG Starting new HTTPS connection (1): api.vk.com:443
+2024-06-23 11:05:55 DEBUG https://api.vk.com:443 "POST /method/wall.post?owner_id=-226321035&message=Date%3A+23-06-2024%2C+Counter+updated&access_token=vk1.a.C_p1oysGXagbyb_W74POdMRYcMZTSqhxOKeW8jxKON9cQ6R0VtXzztw3RIV-MQsBJILBlJGXG4dJK99ZNon_kmQus80hBmuia2pJm465U6WXa_oD9VuY4oAt_Ewn15ERQpVmMDl3A1s7m4U0OaY0jl3Ucf0yfR0dACuGLJSJ2Qbp7ksDiLEJSB4HbO8TLZwzgX7PGkDBfreKvsE-v5jRBw&v=5.131 HTTP/1.1" 200 46
+2024-06-23 11:05:55 DEBUG VK response: {'response': {'post_id': 2}}
+2024-06-23 11:05:55 INFO 192.168.0.11 - - [23/Jun/2024 11:05:55] "GET /pixel.png HTTP/1.1" 200 -
+2024-06-23 11:05:57 DEBUG Logging visit: Timestamp: 2024-06-23 11:05:57.595554, IP: 192.168.0.11, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0
+2024-06-23 11:05:57 DEBUG Starting new HTTPS connection (1): api.vk.com:443
+2024-06-23 11:05:57 DEBUG https://api.vk.com:443 "POST /method/wall.post?owner_id=-226321035&message=Timestamp%3A+2024-06-23+11%3A05%3A57.595554%2C+IP%3A+192.168.0.11%2C+User+Agent%3A+Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F123.0.0.0+Safari%2F537.36+OPR%2F109.0.0.0&access_token=vk1.a.C_p1oysGXagbyb_W74POdMRYcMZTSqhxOKeW8jxKON9cQ6R0VtXzztw3RIV-MQsBJILBlJGXG4dJK99ZNon_kmQus80hBmuia2pJm465U6WXa_oD9VuY4oAt_Ewn15ERQpVmMDl3A1s7m4U0OaY0jl3Ucf0yfR0dACuGLJSJ2Qbp7ksDiLEJSB4HbO8TLZwzgX7PGkDBfreKvsE-v5jRBw&v=5.131 HTTP/1.1" 200 46
+2024-06-23 11:05:57 DEBUG VK response: {'response': {'post_id': 3}}
+2024-06-23 11:05:57 DEBUG Updating counter: Date: 23-06-2024, Counter updated
+2024-06-23 11:05:57 DEBUG Starting new HTTPS connection (1): api.vk.com:443
+2024-06-23 11:05:58 DEBUG https://api.vk.com:443 "POST /method/wall.post?owner_id=-226321035&message=Date%3A+23-06-2024%2C+Counter+updated&access_token=vk1.a.C_p1oysGXagbyb_W74POdMRYcMZTSqhxOKeW8jxKON9cQ6R0VtXzztw3RIV-MQsBJILBlJGXG4dJK99ZNon_kmQus80hBmuia2pJm465U6WXa_oD9VuY4oAt_Ewn15ERQpVmMDl3A1s7m4U0OaY0jl3Ucf0yfR0dACuGLJSJ2Qbp7ksDiLEJSB4HbO8TLZwzgX7PGkDBfreKvsE-v5jRBw&v=5.131 HTTP/1.1" 200 46
+2024-06-23 11:05:58 DEBUG VK response: {'response': {'post_id': 4}}
+2024-06-23 11:05:58 INFO 192.168.0.11 - - [23/Jun/2024 11:05:58] "[36mGET /pixel.png HTTP/1.1[0m" 304 -
+2024-06-23 11:07:59 INFO Starting server at 0.0.0.0:5003
+2024-06-23 11:07:59 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.0.11:5003
+2024-06-23 11:07:59 INFO [33mPress CTRL+C to quit[0m
+2024-06-23 11:07:59 INFO  * Restarting with stat
+2024-06-23 11:08:00 INFO Starting server at 0.0.0.0:5003
+2024-06-23 11:08:00 WARNING  * Debugger is active!
+2024-06-23 11:08:00 INFO  * Debugger PIN: 772-397-518
+2024-06-23 11:08:04 INFO Starting server at 0.0.0.0:5003
+2024-06-23 11:08:04 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.0.11:5003
+2024-06-23 11:08:04 INFO [33mPress CTRL+C to quit[0m
+2024-06-23 11:08:04 INFO  * Restarting with stat
+2024-06-23 11:08:05 INFO Starting server at 0.0.0.0:5003
+2024-06-23 11:08:05 WARNING  * Debugger is active!
+2024-06-23 11:08:05 INFO  * Debugger PIN: 772-397-518
+2024-06-23 11:08:11 INFO Starting server at 0.0.0.0:5003
+2024-06-23 11:08:11 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.0.11:5003
+2024-06-23 11:08:11 INFO [33mPress CTRL+C to quit[0m
+2024-06-23 11:08:11 INFO  * Restarting with stat
+2024-06-23 11:08:12 INFO Starting server at 0.0.0.0:5003
+2024-06-23 11:08:12 WARNING  * Debugger is active!
+2024-06-23 11:08:12 INFO  * Debugger PIN: 772-397-518
+2024-06-23 11:09:10 INFO Starting server at 0.0.0.0:5003
+2024-06-23 11:09:10 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.0.11:5003
+2024-06-23 11:09:10 INFO [33mPress CTRL+C to quit[0m
+2024-06-23 11:09:10 INFO  * Restarting with stat
+2024-06-23 11:09:11 INFO Starting server at 0.0.0.0:5003
+2024-06-23 11:09:11 WARNING  * Debugger is active!
+2024-06-23 11:09:11 INFO  * Debugger PIN: 772-397-518
+2024-06-23 11:09:12 INFO 192.168.0.11 - - [23/Jun/2024 11:09:12] "[33mGET / HTTP/1.1[0m" 404 -
+2024-06-23 11:09:31 DEBUG Logging visit and updating counter: Timestamp: 2024-06-23 11:09:31.157689, IP: 192.168.0.11, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0
+Date: 23-06-2024, Counter updated
+2024-06-23 11:09:31 DEBUG Starting new HTTPS connection (1): api.vk.com:443
+2024-06-23 11:09:31 DEBUG https://api.vk.com:443 "POST /method/wall.post?owner_id=-226321035&message=Timestamp%3A+2024-06-23+11%3A09%3A31.157689%2C+IP%3A+192.168.0.11%2C+User+Agent%3A+Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F123.0.0.0+Safari%2F537.36+OPR%2F109.0.0.0%0ADate%3A+23-06-2024%2C+Counter+updated&access_token=vk1.a.C_p1oysGXagbyb_W74POdMRYcMZTSqhxOKeW8jxKON9cQ6R0VtXzztw3RIV-MQsBJILBlJGXG4dJK99ZNon_kmQus80hBmuia2pJm465U6WXa_oD9VuY4oAt_Ewn15ERQpVmMDl3A1s7m4U0OaY0jl3Ucf0yfR0dACuGLJSJ2Qbp7ksDiLEJSB4HbO8TLZwzgX7PGkDBfreKvsE-v5jRBw&v=5.131 HTTP/1.1" 200 46
+2024-06-23 11:09:31 DEBUG VK response: {'response': {'post_id': 5}}
+2024-06-23 11:09:31 INFO 192.168.0.11 - - [23/Jun/2024 11:09:31] "[36mGET /pixel.png HTTP/1.1[0m" 304 -
+2024-06-23 11:09:41 DEBUG Logging visit and updating counter: Timestamp: 2024-06-23 11:09:41.716696, IP: 192.168.0.11, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0
+Date: 23-06-2024, Counter updated
+2024-06-23 11:09:41 DEBUG Starting new HTTPS connection (1): api.vk.com:443
+2024-06-23 11:09:41 DEBUG https://api.vk.com:443 "POST /method/wall.post?owner_id=-226321035&message=Timestamp%3A+2024-06-23+11%3A09%3A41.716696%2C+IP%3A+192.168.0.11%2C+User+Agent%3A+Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F123.0.0.0+Safari%2F537.36+OPR%2F109.0.0.0%0ADate%3A+23-06-2024%2C+Counter+updated&access_token=vk1.a.C_p1oysGXagbyb_W74POdMRYcMZTSqhxOKeW8jxKON9cQ6R0VtXzztw3RIV-MQsBJILBlJGXG4dJK99ZNon_kmQus80hBmuia2pJm465U6WXa_oD9VuY4oAt_Ewn15ERQpVmMDl3A1s7m4U0OaY0jl3Ucf0yfR0dACuGLJSJ2Qbp7ksDiLEJSB4HbO8TLZwzgX7PGkDBfreKvsE-v5jRBw&v=5.131 HTTP/1.1" 200 46
+2024-06-23 11:09:41 DEBUG VK response: {'response': {'post_id': 6}}
+2024-06-23 11:09:41 INFO 192.168.0.11 - - [23/Jun/2024 11:09:41] "[36mGET /pixel.png HTTP/1.1[0m" 304 -
+2024-06-23 11:09:58 INFO 192.168.0.11 - - [23/Jun/2024 11:09:58] "[33mGET /pixel.png/dasboard HTTP/1.1[0m" 404 -
+2024-06-23 11:10:01 INFO 192.168.0.11 - - [23/Jun/2024 11:10:01] "[33mGET /pixel.png/dashboard HTTP/1.1[0m" 404 -
+2024-06-23 11:10:11 INFO 192.168.0.11 - - [23/Jun/2024 11:10:11] "[31m[1mGET /dashboard HTTP/1.1[0m" 401 -
+2024-06-23 11:10:28 INFO 192.168.0.11 - - [23/Jun/2024 11:10:28] "GET /dashboard HTTP/1.1" 200 -
+2024-06-23 11:11:57 INFO  * Detected change in 'C:\\Users\\visen\\OneDrive\\Рабочий стол\\email-tracking_free-main\\dashboard.py', reloading
+2024-06-23 11:11:57 INFO  * Restarting with stat
+2024-06-23 11:11:58 INFO Starting server at 0.0.0.0:5003
+2024-06-23 11:11:58 WARNING  * Debugger is active!
+2024-06-23 11:11:58 INFO  * Debugger PIN: 772-397-518
+2024-06-23 11:12:18 INFO Starting server at 0.0.0.0:5003
+2024-06-23 11:12:18 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.0.11:5003
+2024-06-23 11:12:18 INFO [33mPress CTRL+C to quit[0m
+2024-06-23 11:12:18 INFO  * Restarting with stat
+2024-06-23 11:12:19 INFO Starting server at 0.0.0.0:5003
+2024-06-23 11:12:19 WARNING  * Debugger is active!
+2024-06-23 11:12:19 INFO  * Debugger PIN: 772-397-518
+2024-06-23 11:12:21 INFO 192.168.0.11 - - [23/Jun/2024 11:12:21] "[33mGET / HTTP/1.1[0m" 404 -
+2024-06-23 11:12:28 INFO 192.168.0.11 - - [23/Jun/2024 11:12:28] "GET /dashboard HTTP/1.1" 200 -
+2024-06-23 11:12:31 INFO 192.168.0.11 - - [23/Jun/2024 11:12:31] "GET /dashboard HTTP/1.1" 200 -
+2024-06-23 11:15:01 INFO  * Detected change in 'C:\\Users\\visen\\OneDrive\\Рабочий стол\\email-tracking_free-main\\dashboard.py', reloading
+2024-06-23 11:15:01 INFO  * Restarting with stat
+2024-06-23 11:15:02 INFO Starting server at 0.0.0.0:5003
+2024-06-23 11:15:02 WARNING  * Debugger is active!
+2024-06-23 11:15:02 INFO  * Debugger PIN: 772-397-518
+2024-06-23 11:15:57 INFO Starting server at 0.0.0.0:5003
+2024-06-23 11:15:57 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.0.11:5003
+2024-06-23 11:15:57 INFO [33mPress CTRL+C to quit[0m
+2024-06-23 11:15:57 INFO  * Restarting with stat
+2024-06-23 11:15:58 INFO Starting server at 0.0.0.0:5003
+2024-06-23 11:15:58 WARNING  * Debugger is active!
+2024-06-23 11:15:58 INFO  * Debugger PIN: 772-397-518
+2024-06-23 11:16:00 INFO 127.0.0.1 - - [23/Jun/2024 11:16:00] "[33mGET / HTTP/1.1[0m" 404 -
+2024-06-23 11:16:00 INFO 127.0.0.1 - - [23/Jun/2024 11:16:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-06-23 11:16:02 INFO 192.168.0.11 - - [23/Jun/2024 11:16:02] "[33mGET / HTTP/1.1[0m" 404 -
+2024-06-23 11:16:09 ERROR Error retrieving dashboard data: no such table: counter
+2024-06-23 11:16:09 INFO 192.168.0.11 - - [23/Jun/2024 11:16:09] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2024-06-23 11:16:11 ERROR Error retrieving dashboard data: no such table: counter
+2024-06-23 11:16:11 INFO 192.168.0.11 - - [23/Jun/2024 11:16:11] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2024-06-23 11:16:14 ERROR Error retrieving dashboard data: no such table: counter
+2024-06-23 11:16:14 INFO 192.168.0.11 - - [23/Jun/2024 11:16:14] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2024-06-23 11:16:21 DEBUG Logging visit and updating counter: Timestamp: 2024-06-23 11:16:21.546508, IP: 192.168.0.11, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0
+Date: 23-06-2024, Counter updated
+2024-06-23 11:16:21 DEBUG Starting new HTTPS connection (1): api.vk.com:443
+2024-06-23 11:16:21 DEBUG https://api.vk.com:443 "POST /method/wall.post?owner_id=-226321035&message=Timestamp%3A+2024-06-23+11%3A16%3A21.546508%2C+IP%3A+192.168.0.11%2C+User+Agent%3A+Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F123.0.0.0+Safari%2F537.36+OPR%2F109.0.0.0%0ADate%3A+23-06-2024%2C+Counter+updated&access_token=vk1.a.C_p1oysGXagbyb_W74POdMRYcMZTSqhxOKeW8jxKON9cQ6R0VtXzztw3RIV-MQsBJILBlJGXG4dJK99ZNon_kmQus80hBmuia2pJm465U6WXa_oD9VuY4oAt_Ewn15ERQpVmMDl3A1s7m4U0OaY0jl3Ucf0yfR0dACuGLJSJ2Qbp7ksDiLEJSB4HbO8TLZwzgX7PGkDBfreKvsE-v5jRBw&v=5.131 HTTP/1.1" 200 46
+2024-06-23 11:16:21 DEBUG VK response: {'response': {'post_id': 7}}
+2024-06-23 11:16:21 INFO 192.168.0.11 - - [23/Jun/2024 11:16:21] "[36mGET /pixel.png HTTP/1.1[0m" 304 -
+2024-06-23 11:16:22 DEBUG Logging visit and updating counter: Timestamp: 2024-06-23 11:16:22.978892, IP: 192.168.0.11, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0
+Date: 23-06-2024, Counter updated
+2024-06-23 11:16:22 DEBUG Starting new HTTPS connection (1): api.vk.com:443
+2024-06-23 11:16:23 DEBUG https://api.vk.com:443 "POST /method/wall.post?owner_id=-226321035&message=Timestamp%3A+2024-06-23+11%3A16%3A22.978892%2C+IP%3A+192.168.0.11%2C+User+Agent%3A+Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F123.0.0.0+Safari%2F537.36+OPR%2F109.0.0.0%0ADate%3A+23-06-2024%2C+Counter+updated&access_token=vk1.a.C_p1oysGXagbyb_W74POdMRYcMZTSqhxOKeW8jxKON9cQ6R0VtXzztw3RIV-MQsBJILBlJGXG4dJK99ZNon_kmQus80hBmuia2pJm465U6WXa_oD9VuY4oAt_Ewn15ERQpVmMDl3A1s7m4U0OaY0jl3Ucf0yfR0dACuGLJSJ2Qbp7ksDiLEJSB4HbO8TLZwzgX7PGkDBfreKvsE-v5jRBw&v=5.131 HTTP/1.1" 200 46
+2024-06-23 11:16:23 DEBUG VK response: {'response': {'post_id': 8}}
+2024-06-23 11:16:23 INFO 192.168.0.11 - - [23/Jun/2024 11:16:23] "[36mGET /pixel.png HTTP/1.1[0m" 304 -
+2024-06-23 11:16:24 DEBUG Logging visit and updating counter: Timestamp: 2024-06-23 11:16:24.296713, IP: 192.168.0.11, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0
+Date: 23-06-2024, Counter updated
+2024-06-23 11:16:24 DEBUG Starting new HTTPS connection (1): api.vk.com:443
+2024-06-23 11:16:24 DEBUG https://api.vk.com:443 "POST /method/wall.post?owner_id=-226321035&message=Timestamp%3A+2024-06-23+11%3A16%3A24.296713%2C+IP%3A+192.168.0.11%2C+User+Agent%3A+Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F123.0.0.0+Safari%2F537.36+OPR%2F109.0.0.0%0ADate%3A+23-06-2024%2C+Counter+updated&access_token=vk1.a.C_p1oysGXagbyb_W74POdMRYcMZTSqhxOKeW8jxKON9cQ6R0VtXzztw3RIV-MQsBJILBlJGXG4dJK99ZNon_kmQus80hBmuia2pJm465U6WXa_oD9VuY4oAt_Ewn15ERQpVmMDl3A1s7m4U0OaY0jl3Ucf0yfR0dACuGLJSJ2Qbp7ksDiLEJSB4HbO8TLZwzgX7PGkDBfreKvsE-v5jRBw&v=5.131 HTTP/1.1" 200 46
+2024-06-23 11:16:24 DEBUG VK response: {'response': {'post_id': 9}}
+2024-06-23 11:16:24 INFO 192.168.0.11 - - [23/Jun/2024 11:16:24] "[36mGET /pixel.png HTTP/1.1[0m" 304 -
+2024-06-23 11:16:29 ERROR Error retrieving dashboard data: no such table: counter
+2024-06-23 11:16:29 INFO 192.168.0.11 - - [23/Jun/2024 11:16:29] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2024-06-23 11:18:48 INFO Starting server at 0.0.0.0:5003
+2024-06-23 11:18:48 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.0.11:5003
+2024-06-23 11:18:48 INFO [33mPress CTRL+C to quit[0m
+2024-06-23 11:18:48 INFO  * Restarting with stat
+2024-06-23 11:18:49 INFO Starting server at 0.0.0.0:5003
+2024-06-23 11:18:49 WARNING  * Debugger is active!
+2024-06-23 11:18:49 INFO  * Debugger PIN: 772-397-518
+2024-06-23 11:18:50 INFO 192.168.0.11 - - [23/Jun/2024 11:18:50] "[33mGET / HTTP/1.1[0m" 404 -
+2024-06-23 11:18:52 INFO 192.168.0.11 - - [23/Jun/2024 11:18:52] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2024-06-23 11:18:53 INFO 192.168.0.11 - - [23/Jun/2024 11:18:53] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2024-06-23 11:18:53 INFO 192.168.0.11 - - [23/Jun/2024 11:18:53] "GET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-06-23 11:18:53 INFO 192.168.0.11 - - [23/Jun/2024 11:18:53] "GET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-06-23 11:18:54 INFO 192.168.0.11 - - [23/Jun/2024 11:18:54] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-06-23 11:19:27 INFO Starting server at 0.0.0.0:5003
+2024-06-23 11:19:27 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.0.11:5003
+2024-06-23 11:19:27 INFO [33mPress CTRL+C to quit[0m
+2024-06-23 11:19:27 INFO  * Restarting with stat
+2024-06-23 11:19:28 INFO Starting server at 0.0.0.0:5003
+2024-06-23 11:19:28 WARNING  * Debugger is active!
+2024-06-23 11:19:28 INFO  * Debugger PIN: 772-397-518
+2024-06-23 11:19:30 INFO 192.168.0.11 - - [23/Jun/2024 11:19:30] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2024-06-23 11:19:30 INFO 192.168.0.11 - - [23/Jun/2024 11:19:30] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-06-23 11:19:30 INFO 192.168.0.11 - - [23/Jun/2024 11:19:30] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-06-23 11:19:30 INFO 192.168.0.11 - - [23/Jun/2024 11:19:30] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-23 11:20:26 INFO Starting server at 0.0.0.0:5003
+2024-06-23 11:20:26 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.0.11:5003
+2024-06-23 11:20:26 INFO [33mPress CTRL+C to quit[0m
+2024-06-23 11:20:26 INFO  * Restarting with stat
+2024-06-23 11:20:27 INFO Starting server at 0.0.0.0:5003
+2024-06-23 11:20:27 WARNING  * Debugger is active!
+2024-06-23 11:20:27 INFO  * Debugger PIN: 772-397-518
+2024-06-23 11:20:28 INFO 192.168.0.11 - - [23/Jun/2024 11:20:28] "[33mGET / HTTP/1.1[0m" 404 -
+2024-06-23 11:20:30 DEBUG Starting new HTTPS connection (1): api.vk.com:443
+2024-06-23 11:20:30 DEBUG https://api.vk.com:443 "GET /method/wall.get?owner_id=-226321035&access_token=vk1.a.C_p1oysGXagbyb_W74POdMRYcMZTSqhxOKeW8jxKON9cQ6R0VtXzztw3RIV-MQsBJILBlJGXG4dJK99ZNon_kmQus80hBmuia2pJm465U6WXa_oD9VuY4oAt_Ewn15ERQpVmMDl3A1s7m4U0OaY0jl3Ucf0yfR0dACuGLJSJ2Qbp7ksDiLEJSB4HbO8TLZwzgX7PGkDBfreKvsE-v5jRBw&v=5.131&count=100 HTTP/1.1" 200 760
+2024-06-23 11:20:30 INFO 192.168.0.11 - - [23/Jun/2024 11:20:30] "GET /dashboard HTTP/1.1" 200 -
+2024-06-23 11:20:37 DEBUG Starting new HTTPS connection (1): api.vk.com:443
+2024-06-23 11:20:37 DEBUG https://api.vk.com:443 "GET /method/wall.get?owner_id=-226321035&access_token=vk1.a.C_p1oysGXagbyb_W74POdMRYcMZTSqhxOKeW8jxKON9cQ6R0VtXzztw3RIV-MQsBJILBlJGXG4dJK99ZNon_kmQus80hBmuia2pJm465U6WXa_oD9VuY4oAt_Ewn15ERQpVmMDl3A1s7m4U0OaY0jl3Ucf0yfR0dACuGLJSJ2Qbp7ksDiLEJSB4HbO8TLZwzgX7PGkDBfreKvsE-v5jRBw&v=5.131&count=100 HTTP/1.1" 200 760
+2024-06-23 11:20:37 INFO 192.168.0.11 - - [23/Jun/2024 11:20:37] "GET /dashboard HTTP/1.1" 200 -
+2024-06-23 11:20:39 DEBUG Logging visit and updating counter: Timestamp: 2024-06-23 11:20:39.718581, IP: 192.168.0.11, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0
+Date: 23-06-2024, Counter updated
+2024-06-23 11:20:39 DEBUG Starting new HTTPS connection (1): api.vk.com:443
+2024-06-23 11:20:39 DEBUG https://api.vk.com:443 "POST /method/wall.post?owner_id=-226321035&message=Timestamp%3A+2024-06-23+11%3A20%3A39.718581%2C+IP%3A+192.168.0.11%2C+User+Agent%3A+Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F123.0.0.0+Safari%2F537.36+OPR%2F109.0.0.0%0ADate%3A+23-06-2024%2C+Counter+updated&access_token=vk1.a.C_p1oysGXagbyb_W74POdMRYcMZTSqhxOKeW8jxKON9cQ6R0VtXzztw3RIV-MQsBJILBlJGXG4dJK99ZNon_kmQus80hBmuia2pJm465U6WXa_oD9VuY4oAt_Ewn15ERQpVmMDl3A1s7m4U0OaY0jl3Ucf0yfR0dACuGLJSJ2Qbp7ksDiLEJSB4HbO8TLZwzgX7PGkDBfreKvsE-v5jRBw&v=5.131 HTTP/1.1" 200 47
+2024-06-23 11:20:39 DEBUG VK response: {'response': {'post_id': 10}}
+2024-06-23 11:20:39 INFO 192.168.0.11 - - [23/Jun/2024 11:20:39] "[36mGET /pixel.png HTTP/1.1[0m" 304 -
+2024-06-23 11:20:40 DEBUG Logging visit and updating counter: Timestamp: 2024-06-23 11:20:40.862860, IP: 192.168.0.11, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0
+Date: 23-06-2024, Counter updated
+2024-06-23 11:20:40 DEBUG Starting new HTTPS connection (1): api.vk.com:443
+2024-06-23 11:20:41 DEBUG https://api.vk.com:443 "POST /method/wall.post?owner_id=-226321035&message=Timestamp%3A+2024-06-23+11%3A20%3A40.862860%2C+IP%3A+192.168.0.11%2C+User+Agent%3A+Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F123.0.0.0+Safari%2F537.36+OPR%2F109.0.0.0%0ADate%3A+23-06-2024%2C+Counter+updated&access_token=vk1.a.C_p1oysGXagbyb_W74POdMRYcMZTSqhxOKeW8jxKON9cQ6R0VtXzztw3RIV-MQsBJILBlJGXG4dJK99ZNon_kmQus80hBmuia2pJm465U6WXa_oD9VuY4oAt_Ewn15ERQpVmMDl3A1s7m4U0OaY0jl3Ucf0yfR0dACuGLJSJ2Qbp7ksDiLEJSB4HbO8TLZwzgX7PGkDBfreKvsE-v5jRBw&v=5.131 HTTP/1.1" 200 47
+2024-06-23 11:20:41 DEBUG VK response: {'response': {'post_id': 11}}
+2024-06-23 11:20:41 INFO 192.168.0.11 - - [23/Jun/2024 11:20:41] "[36mGET /pixel.png HTTP/1.1[0m" 304 -
+2024-06-23 11:20:42 DEBUG Starting new HTTPS connection (1): api.vk.com:443
+2024-06-23 11:20:42 DEBUG https://api.vk.com:443 "GET /method/wall.get?owner_id=-226321035&access_token=vk1.a.C_p1oysGXagbyb_W74POdMRYcMZTSqhxOKeW8jxKON9cQ6R0VtXzztw3RIV-MQsBJILBlJGXG4dJK99ZNon_kmQus80hBmuia2pJm465U6WXa_oD9VuY4oAt_Ewn15ERQpVmMDl3A1s7m4U0OaY0jl3Ucf0yfR0dACuGLJSJ2Qbp7ksDiLEJSB4HbO8TLZwzgX7PGkDBfreKvsE-v5jRBw&v=5.131&count=100 HTTP/1.1" 200 871
+2024-06-23 11:20:42 INFO 192.168.0.11 - - [23/Jun/2024 11:20:42] "GET /dashboard HTTP/1.1" 200 -
+2024-06-23 11:31:14 INFO  * Detected change in 'C:\\Users\\visen\\OneDrive\\Рабочий стол\\email-tracking_free-main\\dashboard.py', reloading
+2024-06-23 11:31:14 INFO  * Restarting with stat
+2024-06-23 11:31:15 INFO Starting server at 0.0.0.0:5003
+2024-06-23 11:31:15 WARNING  * Debugger is active!
+2024-06-23 11:31:15 INFO  * Debugger PIN: 772-397-518
+2024-06-23 11:32:15 INFO Starting server at 0.0.0.0:5003
+2024-06-23 11:32:15 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.0.11:5003
+2024-06-23 11:32:15 INFO [33mPress CTRL+C to quit[0m
+2024-06-23 11:32:15 INFO  * Restarting with stat
+2024-06-23 11:32:15 INFO Starting server at 0.0.0.0:5003
+2024-06-23 11:32:15 WARNING  * Debugger is active!
+2024-06-23 11:32:15 INFO  * Debugger PIN: 772-397-518
+2024-06-23 11:32:17 INFO 192.168.0.11 - - [23/Jun/2024 11:32:17] "[33mGET / HTTP/1.1[0m" 404 -
+2024-06-23 11:32:20 DEBUG Starting new HTTPS connection (1): api.vk.com:443
+2024-06-23 11:32:20 DEBUG https://api.vk.com:443 "GET /method/wall.get?owner_id=-226321035&access_token=vk1.a.C_p1oysGXagbyb_W74POdMRYcMZTSqhxOKeW8jxKON9cQ6R0VtXzztw3RIV-MQsBJILBlJGXG4dJK99ZNon_kmQus80hBmuia2pJm465U6WXa_oD9VuY4oAt_Ewn15ERQpVmMDl3A1s7m4U0OaY0jl3Ucf0yfR0dACuGLJSJ2Qbp7ksDiLEJSB4HbO8TLZwzgX7PGkDBfreKvsE-v5jRBw&v=5.131&count=100 HTTP/1.1" 200 871
+2024-06-23 11:32:20 INFO 192.168.0.11 - - [23/Jun/2024 11:32:20] "GET /dashboard HTTP/1.1" 200 -
+2024-06-23 11:32:23 DEBUG Starting new HTTPS connection (1): api.vk.com:443
+2024-06-23 11:32:23 DEBUG https://api.vk.com:443 "GET /method/wall.get?owner_id=-226321035&access_token=vk1.a.C_p1oysGXagbyb_W74POdMRYcMZTSqhxOKeW8jxKON9cQ6R0VtXzztw3RIV-MQsBJILBlJGXG4dJK99ZNon_kmQus80hBmuia2pJm465U6WXa_oD9VuY4oAt_Ewn15ERQpVmMDl3A1s7m4U0OaY0jl3Ucf0yfR0dACuGLJSJ2Qbp7ksDiLEJSB4HbO8TLZwzgX7PGkDBfreKvsE-v5jRBw&v=5.131&count=100 HTTP/1.1" 200 871
+2024-06-23 11:32:23 INFO 192.168.0.11 - - [23/Jun/2024 11:32:23] "GET /dashboard HTTP/1.1" 200 -
+2024-06-23 11:32:30 INFO 192.168.0.11 - - [23/Jun/2024 11:32:30] "[31m[1mGET /dashboard HTTP/1.1[0m" 401 -
+2024-06-23 11:32:41 DEBUG Starting new HTTPS connection (1): api.vk.com:443
+2024-06-23 11:32:41 DEBUG https://api.vk.com:443 "GET /method/wall.get?owner_id=-226321035&access_token=vk1.a.C_p1oysGXagbyb_W74POdMRYcMZTSqhxOKeW8jxKON9cQ6R0VtXzztw3RIV-MQsBJILBlJGXG4dJK99ZNon_kmQus80hBmuia2pJm465U6WXa_oD9VuY4oAt_Ewn15ERQpVmMDl3A1s7m4U0OaY0jl3Ucf0yfR0dACuGLJSJ2Qbp7ksDiLEJSB4HbO8TLZwzgX7PGkDBfreKvsE-v5jRBw&v=5.131&count=100 HTTP/1.1" 200 871
+2024-06-23 11:32:41 INFO 192.168.0.11 - - [23/Jun/2024 11:32:41] "GET /dashboard HTTP/1.1" 200 -
