@@ -30,29 +30,42 @@ def requires_auth(f):
         return f(*args, **kwargs)
     return decorated
 
-def get_wall_posts():
-    params = {
-        'owner_id': f'-{VK_GROUP_ID}',
-        'access_token': VK_ACCESS_TOKEN,
-        'v': VK_API_VERSION,
-        'count': 100
-    }
-    response = requests.get(VK_API_URL, params=params)
-    if response.status_code == 200:
-        return response.json()
-    else:
-        logging.error(f"Error fetching wall posts: {response.status_code}")
-        return None
+def get_wall_posts(count=1000):
+    posts = []
+    offset = 0
+    while True:
+        params = {
+            'owner_id': f'-{VK_GROUP_ID}',
+            'access_token': VK_ACCESS_TOKEN,
+            'v': VK_API_VERSION,
+            'count': 100,
+            'offset': offset
+        }
+        response = requests.get(VK_API_URL, params=params)
+        if response.status_code == 200:
+            data = response.json()
+            if 'response' in data:
+                items = data['response']['items']
+                posts.extend(items)
+                if len(items) < 100 or len(posts) >= count:
+                    break
+                offset += 100
+            else:
+                logging.error("Unexpected response format")
+                break
+        else:
+            logging.error(f"Error fetching wall posts: {response.status_code}")
+            break
+    return posts
 
 @dashboard_bp.route('/dashboard')
 @requires_auth
 def dashboard():
     try:
-        wall_data = get_wall_posts()
-        if wall_data is None or 'response' not in wall_data:
+        posts = get_wall_posts()
+        if not posts:
             return jsonify({"error": "Error retrieving wall posts"}), 500
 
-        posts = wall_data['response']['items']
         data = {}
 
         for post in posts:
